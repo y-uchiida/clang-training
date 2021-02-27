@@ -55,7 +55,7 @@ argvの後ろに、`char *envp[]` という形で環境変数を取得するこ�
 新しい知見があれば、また追記します。
 
 ## 参考ページ
-- (Man page of ENVIRON)[https://linuxjm.osdn.jp/html/LDP_man-pages/man7/environ.7.html]
-- (Language C FAQ (Japanese))[http://www.kouno.jp/home/c_faq/c0.html]
-- (環境変数ってなに? \( Linux \))[https://qiita.com/angel_p_57/items/480e3fd4552e52199835]
-- (原理原則で理解するbashの仕組み)[https://qiita.com/tajima_taso/items/149ca77a2401bf9bf026]
+- <a href="https://linuxjm.osdn.jp/html/LDP_man-pages/man7/environ.7.html" target="_blank">(Man page of ENVIRON</a>
+- <a href="http://www.kouno.jp/home/c_faq/c0.html" target="_blank">Language C FAQ (Japanese</a>
+- <a href="https://qiita.com/angel_p_57/items/480e3fd4552e52199835" target="_blank">環境変数ってなに? ( Linux )</a>
+- <a href="https://qiita.com/tajima_taso/items/149ca77a2401bf9bf026" target="_blank">原理原則で理解するbashの仕組み</a>
