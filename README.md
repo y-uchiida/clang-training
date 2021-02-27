@@ -17,4 +17,8 @@ C言語のビット演算について、コードを書いて動作を確認し�
 この実習で気づいた内容をブログにまとめました:  
 [符号付き2進数は最上位ビットだけ1のときが最小値になる](https://memoryclip.rambling-bit.com/2020/10/computer-science/smallest-in-signed-binary-number/)  
 
-
+## environment-variables(2021.02.27)
+C言語での環境変数の取扱いについて、細かい動作を調査しました。  
+setenvした場合のenvrionポインタの挙動や、子プロセスへの環境変数の引き渡しなど、なかなか情報が見つからず、それなら実際に動かしてみることに。  
+ドキュメントにも書いていないし、普通に使うだけなら意識しない部分も、動かしてみたらしっくりくる仕様になっていました。  
+得られた知見を簡単に[commentary.md](https://github.com/y-uchiida/clang-training/blob/main/environment-variables_in_c/commentary.md)にまとめています。
