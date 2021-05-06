@@ -35,3 +35,4 @@ setenvした場合のenvrionポインタの挙動や、子プロセスへの環�
 forkしたプロセスとシグナルハンドラの関係を実際に見てみるためのサンプルコードを作成しました。  
 シンプルにするためにsigaction()ではなく旧式のsignal()を使っているので、  
 実際のプロダクトではそのまま使ってはいけません。。。💦
+得られた知見を[commentary.md](https://github.com/y-uchiida/clang-training/blob/main/signal-control/commentary.md)にまとめています。
