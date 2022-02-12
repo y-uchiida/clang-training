@@ -36,3 +36,8 @@ forkしたプロセスとシグナルハンドラの関係を実際に見てみ�
 シンプルにするためにsigaction()ではなく旧式のsignal()を使っているので、  
 実際のプロダクトではそのまま使ってはいけません。。。💦  
 得られた知見を[commentary.md](https://github.com/y-uchiida/clang-training/blob/main/signal-control/commentary.md)にまとめています。
+
+## signal-control2(2022.02.08)
+シグナルハンドラの設定をsigaction を利用して簡単に書いてみました。  
+42 Tokyoでの課題の手慣らしおよび挙動確認として作成したもののため、サンプルコードとしては利用しづらい状態になっています。  
+そのうち書き直したいと思っています。  

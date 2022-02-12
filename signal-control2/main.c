@@ -7,10 +7,11 @@ int main (void)
 	set_signalhandler();
 
 	while (1) {
+		pause();
 		if (g_receive_signal == SIGUSR1) {
 			printf("SIGUSR1 received!\n");
 		}
-		pause();
+		g_receive_signal = 0;
 	}
 
 	return (EXIT_SUCCESS);
